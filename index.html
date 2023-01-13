@@ -1,0 +1,61 @@
+<html>
+<body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<center>
+<style type="text/css">
+body{
+border:2px solid green;
+}
+#asd{
+width:100px;
+height:100px;
+background:blue;
+position:relative;
+top:350px;
+border-radius:50%;
+border:2px solid green;
+}
+#a{
+position:relative;
+font-size:40px;
+top:60px;
+border:2px solid green;
+}
+#b{
+width:50px;
+height:50px;
+background:green;
+position:fixed;
+}
+</style>
+
+<div id="b" onmousemove="bot()"> </div>
+<h1 id="a"> 0 </h1>
+<div id="asd" onmousemove="oppo()"> </div>
+
+
+<script type="text/javascript">
+
+koko = 0;
+function oppo(){
+koko+=1;
+a.innerHTML = koko;
+
+if(koko == 33){
+  a.style.color="red"
+}
+if(koko == 66){
+  a.style.color="brown"
+}
+if(koko == 99){
+  a.style.color="gold"
+}
+}
+function bot(){
+koko = 0;
+a.innerHTML = koko;
+a.style.color="black"
+}
+</script>
