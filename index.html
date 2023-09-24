@@ -1,62 +1,113 @@
+<!DOCTYPE html>
 <html>
-<body>
 <head>
-<title>سبحة إلكترونية اونلاين بدون تحميل</title>
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>عبدالرحمن عارف</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+		}
+		header {
+			background-color: #232323;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+		nav {
+			background-color: #333;
+			color: #fff;
+			overflow: hidden;
+			padding: 10px;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+		nav li:last-child {
+			margin-right: 0;
+		}
+		nav a {
+			color: #fff;
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+			transition: all 0.3s ease;
+		}
+		nav a:hover {
+			background-color: #fff;
+			color: #333;
+		}
+		main {
+			padding: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		section {
+			margin: 20px 0;
+			padding: 20px;
+			background-color: #f7f7f7;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		}
+		h2 {
+			margin-top: 0;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		footer {
+			background-color: #232323;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
 </head>
-<center>
-<style type="text/css">
-body{
-border:2px solid green;
-}
-#asd{
-width:100px;
-height:100px;
-background:blue;
-position:relative;
-top:350px;
-border-radius:50%;
-border:2px solid green;
-}
-#a{
-position:relative;
-font-size:40px;
-top:60px;
-border:2px solid green;
-}
-#b{
-width:50px;
-height:50px;
-background:green;
-position:fixed;
-}
-</style>
-
-<div id="b" onmousemove="bot()"> </div>
-<h1 id="a"> 0 </h1>
-<div id="asd" onmousemove="oppo()"> </div>
-
-
-<script type="text/javascript">
-
-koko = 0;
-function oppo(){
-koko+=1;
-a.innerHTML = koko;
-
-if(koko == 33){
-  a.style.color="red"
-}
-if(koko == 66){
-  a.style.color="brown"
-}
-if(koko == 99){
-  a.style.color="gold"
-}
-}
-function bot(){
-koko = 0;
-a.innerHTML = koko;
-a.style.color="black"
-}
-</script>
+<body dir="rtl" >
+	<header>
+		<h1>مرحباً بكم في موقعي الشخصي</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#about-me">نبذة عني</a></li>
+			<li><a href="#my-projects">مشاريعي</a></li>
+			<li><a href="#contact-me">اتصل بي</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="about-me">
+			<h2>نبذة عني</h2>
+			<p>أنا عبدالرحمن عارف، طالب في المرحلة الثانوية. </p>
+		</section>
+		<section id="my-projects">
+			<h2>مشاريعي</h2>
+			<ul>
+				<li>آلة حاسبة حديثة</li>
+				<li>لعبة الديناصور</li>
+				<li>أداة قياس العمر</li>
+			</ul>
+		</section>
+		<section id="contact-me">
+			<h2>اتصل بي</h2>
+			<p>يمكنك التواصل معي عبر البريد الإلكتروني: example@example.com</p>
+		</section>
+	</main>
+	<footer>
+		<p>جميع الحقوق محفوظة © عبدالرحمن عارف 2023</p>
+	</footer>
+</body>
+</html>
